@@ -21,7 +21,7 @@ def generate_section(
             },
         ],
         temperature=0.3,
-        max_tokens=8100,
+        max_tokens=16000,
         top_p=1,
         stream=True,
         stop=None,
