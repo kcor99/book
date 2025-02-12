@@ -22,7 +22,7 @@ def generate_book_title(prompt: str, model: str, groq_provider):
             },
         ],
         temperature=0.7,
-        max_tokens=100,
+        max_tokens=1000,
         top_p=1,
         stream=False,
         stop=None,
