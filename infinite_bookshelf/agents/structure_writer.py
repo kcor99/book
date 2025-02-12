@@ -34,7 +34,7 @@ def generate_book_structure(
             },
         ],
         temperature=0.3,
-        max_tokens=16000,
+        max_tokens=8100,
         top_p=1,
         stream=False,
         response_format={"type": "json_object"},
